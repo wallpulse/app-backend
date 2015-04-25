@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/wallpulse/app-backend#readme",
   "devDependencies": {
-    "babel": "^5.1.11",
     "standard": "^3.7.1"
   },
   "dependencies": {
+    "babel": "^5.1.11",
     "hapi": "^8.4.0"
   }
 }
