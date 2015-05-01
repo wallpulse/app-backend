@@ -7,6 +7,10 @@ server.connection({
   port: 3000
 })
 
+server.on('response', (request) => {
+  console.log(`${request.info.remoteAddress} - ${request.response.statusCode} ${request.method.toUpperCase()} ${request.url.path}`)
+})
+
 app(server)
 
 server.start(() => {
